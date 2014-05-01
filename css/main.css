@@ -5900,7 +5900,6 @@ textarea {
 
 #portfoliopage {
   background: url('../img/bg.png');
-  height: 993px;
 }
 
 #testbrackets3 {
@@ -5956,19 +5955,41 @@ textarea {
   padding-top: 20px;
 }
 
-.rowone {
+.dots {
   margin: 0 auto;
-  text-align: center;
-  width: 1240px;
-  min-width: 1240px;
+  width: 100px;
 }
 
-.rowtwo {
+.gridmain {
+  width: 1258px;
   margin: 0 auto;
+}
+
+/* ==================================== PORTFOLIO BOX SHIT ====================================== */
+
+.svgarrow {
   text-align: center;
-  padding-top: 2px;
-  width: 1240px;
-  min-width: 1240px;
+  margin-top: -120px;
+  opacity: 0;
+}
+
+.svgbox {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 16px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 20px;
+    -webkit-transition: background 0.4s 0.5s;
+    transition: background 0.4s 0.5s;
+}
+
+.svgbox:hover {
+    background: rgba(255, 255, 255, 0.0);
+    -webkit-transition: background 0.4s 0.5s;
+    transition: background 0.4s 0.5s;
 }
 
 .captionbox {
@@ -5998,86 +6019,116 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   -ms-transition: opacity 0.5s;
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
-
 }
 
-.dots {
+
+
+/* ==================================== MEDIA QUERIES ====================================== */
+
+@media (max-width: 1285px) {
+
+  .gridmain {
+  width: 830px;
   margin: 0 auto;
-  width: 100px;
+  }
+
+  .svgbox {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .second {
+  margin-left: 25px;
+  }
+
+  #landingpage {
+    height: 768px;
+  }
+
 }
 
-/* ==================================== SVG SHIT ====================================== */
+@media (max-width: 1024px) {
+    
+  .tobemoved {
+    top: 122px;
+  }
 
-.svgarrow {
-  text-align: center;
-  margin-top: -120px;
-  opacity: 0;
-}
-
-.svgbox {
-    width: 400px;
-    height: 400px;
+  #testbrackets3 {
+    margin: 0 auto;
     position: relative;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    padding: 20px;
-    -webkit-transition: background 0.4s 0.5s;
-    transition: background 0.4s 0.5s;
+    top: -250px;
+  }
+
+  .svgarrow {
+    margin-top: -240px;
+  }
+
 }
 
-.svgbox:hover {
-    background: rgba(255, 255, 255, 0.0);
-    -webkit-transition: background 0.4s 0.5s;
-    transition: background 0.4s 0.5s;
+@media (max-width: 860px) {
+
+  .gridmain {
+  width: 404px;
+  margin: 0 auto;
+  }
+
+  .second {
+  margin-left: 0;
+  }
+  
+  #testbrackets3 {
+    display:none;
+  }
+
+  .tobemoved {
+    min-width: 1px;
+    top: 225px;
+  }
+
+  .tobemoved > h1 {
+    line-height: 111px;
+  }
+
+  .tobemoved > h2 {
+    line-height: 55px;
+    margin-top: 28px;
+  }
+
+  .tobemoved > h3 {
+    line-height: 40px;
+  }
+
+  .tobemoved {
+    position: inherit;
+    min-width: 1px;
+    margin-top: -15px;
+  }
+
+  .svgarrow {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+  }
+
 }
- 
-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+@media (max-width: 860px) {
+
+  .tobemoved > h1 {
+    line-height: 96px;
+    font-size: 100px;
+  }
+
+  .tobemoved > h2 {
+    line-height: 55px;
+    margin-top: 30px;
+    font-size: 40px;
+    padding: 0 5px;
+  }
+
+  .tobemoved > h3 {
+    line-height: 40px;
+    font-size: 30px;
+  }
+
 }
- 
-svg line {
-    stroke-width: 2;
-    stroke: rgba(20, 20, 20, 0.4);
-    fill: none;
-    stroke-dasharray: 400;
-    -webkit-transition: -webkit-transform .6s ease-out;
-    transition: transform .6s ease-out;
-}
- 
-.svgbox:hover svg line {
-    -webkit-transform: translateX(-400px);
-    transform: translateX(-400px);
-}
-
-.svgbox:hover svg line.topp {
-  -webkit-transform: translateX(-400px);
-  transform: translateX(-400px);
-}
- 
-.svgbox:hover svg line.bottomm {
-  -webkit-transform: translateX(400px);
-  transform: translateX(400px);
-}
- 
-.svgbox:hover svg line.leftt {
-  -webkit-transform: translateY(400px);
-  transform: translateY(400px);
-}
- 
-.svgbox:hover svg line.rightt {
-  -webkit-transform: translateY(-400px);
-  transform: translateY(-400px);
-}
-
-
-
-
-
-
-
-
-
-
