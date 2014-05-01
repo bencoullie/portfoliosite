@@ -5910,7 +5910,7 @@ textarea {
 
 .tobemoved {
   position: relative;
-  top: 225px;
+  top: 215px;
   min-width: 960px;
 }
 
@@ -5971,6 +5971,7 @@ textarea {
   text-align: center;
   margin-top: -120px;
   opacity: 0;
+  min-width: 963px;
 }
 
 .svgbox {
@@ -6025,11 +6026,27 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
 
 /* ==================================== MEDIA QUERIES ====================================== */
 
+@media (max-width: 1680px) {
+
+  #testbrackets3 {
+    top: -205px;
+  }
+
+  .tobemoved {
+    top: 150px;
+  }
+
+  .svgarrow {
+    margin-top: -190px;
+  }
+
+}
+
 @media (max-width: 1285px) {
 
   .gridmain {
-  width: 830px;
-  margin: 0 auto;
+    width: 830px;
+    margin: 0 auto;
   }
 
   .svgbox {
@@ -6038,7 +6055,7 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .second {
-  margin-left: 25px;
+    margin-left: 25px;
   }
 
   #landingpage {
@@ -6056,7 +6073,7 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   #testbrackets3 {
     margin: 0 auto;
     position: relative;
-    top: -250px;
+    top: -230px;
   }
 
   .svgarrow {
@@ -6108,11 +6125,16 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     text-align: center;
     margin-top: 20px;
     opacity: 0;
+    min-width: 1px;
   }
 
 }
 
 @media (max-width: 860px) {
+
+  .gridmain {
+    width: 320px;
+  }
 
   .tobemoved > h1 {
     line-height: 96px;
@@ -6129,6 +6151,23 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   .tobemoved > h3 {
     line-height: 40px;
     font-size: 30px;
+  }
+
+  .svgbox {
+    width: 320px;
+    height: 320px;
+  }
+
+  .captionbox {
+    width: 280px;
+  }
+
+  .captionbox > img {
+    margin-top: -78px;
+  }
+
+  #landingpage {
+    height: 100%;
   }
 
 }
