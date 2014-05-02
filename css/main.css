@@ -5931,7 +5931,7 @@ textarea {
   font-size: 60px;
   text-align: center;
   display: block;
-  color: rgba(23, 23, 23, 0.6);
+  color: rgba(15, 15, 15, 0.5);
   margin: 0rem;
   opacity: 0;
 }
@@ -5941,7 +5941,7 @@ textarea {
   font-size: 40px;
   text-align: center;
   display: block;
-  color: rgba(20, 20, 20, 0.7);
+  color: rgba(15, 15, 15, 0.6);
   margin: 0rem;
   opacity: 0;
 }
@@ -5955,6 +5955,14 @@ textarea {
   padding-top: 20px;
 }
 
+.h1span {
+  font-size: 80px;
+  font-family: 'bebas_neuethin';
+  position: relative;
+  top: -11px;
+  color: rgba(25, 25, 25, 0.1);
+}
+
 .dots {
   margin: 0 auto;
   width: 100px;
@@ -5963,6 +5971,54 @@ textarea {
 .gridmain {
   width: 1258px;
   margin: 0 auto;
+  text-align: center;
+}
+
+/* ==================================== INFO BLOCK SHIT yoloswag ====================================== */
+
+.infoblock {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin: 50px 0 0 16px;
+  background: url('../img/bg.png') repeat;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.firstt {
+  border-top: 6px solid rgba(228, 91, 74, 0.8);
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 10px 10px 0px 0px; 
+}
+
+.thirdd {
+  border-top: 6px solid rgba(228, 111, 97, 0.8);
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 10px 10px 0px 0px; 
+}
+
+.secondd {
+  border-top: 6px solid rgba(255, 147, 134, 0.8);
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 10px 10px 0px 0px; 
+}
+
+.infoblock > h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(120, 120, 120, 1);
+  text-align: left;
+}
+
+.infoblock > hr {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* ==================================== PORTFOLIO BOX SHIT ====================================== */
@@ -6054,6 +6110,11 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     margin-top: 25px;
   }
 
+  .infoblock {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
   .second {
     margin-left: 25px;
   }
@@ -6136,6 +6197,16 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     width: 320px;
   }
 
+  .subpagehead {
+    line-height: 96px;
+    font-size: 80px;
+  }
+
+  .h1span {
+    font-size: 70px;
+    top: -5px;
+  }
+
   .tobemoved > h1 {
     line-height: 96px;
     font-size: 100px;
@@ -6154,6 +6225,11 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .svgbox {
+    width: 320px;
+    height: 320px;
+  }
+
+  .infoblock {
     width: 320px;
     height: 320px;
   }
