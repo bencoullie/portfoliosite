@@ -5891,7 +5891,7 @@ textarea {
 
 #landingpage {
   background: url('../img/bg.png');
-  height: 993px;
+  height: 1080px;
 }
 
 #aboutpage {
@@ -5900,6 +5900,10 @@ textarea {
 
 #portfoliopage {
   background: url('../img/bg.png');
+}
+
+#contactpage {
+  background: url('../img/bg3.png');
 }
 
 #testbrackets3 {
@@ -5960,7 +5964,7 @@ textarea {
   font-family: 'bebas_neuethin';
   position: relative;
   top: -11px;
-  color: rgba(25, 25, 25, 0.1);
+  color: rgba(25, 25, 25, 0.18);
 }
 
 .dots {
@@ -5972,6 +5976,78 @@ textarea {
   width: 1258px;
   margin: 0 auto;
   text-align: center;
+}
+
+.subsection {
+  background: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 8px 0 1px 10px;
+  color: #666;
+}
+
+.infop {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 17px;
+  text-align: left;
+}
+
+.cata {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.fa {
+  font-size: 55px;
+  color: rgba(25, 25, 25, 0.4);
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.secondarrow {
+  text-align: center;
+}
+
+.columndiv {
+  display: inline-block;
+}
+
+.sillybox {
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+.subimageblock {
+  background: url('../img/bg2.png') repeat;
+  width: 360px;
+  margin: 0 auto;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+}
+
+.subimageblock > h3 {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(120, 120, 120, 1);
+  text-align: center;
+}
+
+.imgcircle {
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  border-radius: 250px;
+  border: 8px solid rgba(255, 255, 255, 1);
+  width: 550px;
+  height: 450px;
+  margin: 0 auto;
+  background: url('../img/bencoullie.jpg') center center no-repeat;
 }
 
 /* ==================================== INFO BLOCK SHIT yoloswag ====================================== */
@@ -6008,17 +6084,81 @@ textarea {
   border-radius: 10px 10px 0px 0px; 
 }
 
+.fourthh {
+  border-top: 6px solid rgba(228, 111, 97, 0.8);
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 10px 10px 0px 0px; 
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#aboutpage > div.gridmain > div.infoblock.fourthh > div {
+  padding: 8px 0;
+}
+
+#aboutpage > div.gridmain > div.infoblock.fourthh > div > a > i {
+  padding-left: 8px;
+}
+
 .infoblock > h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: rgba(120, 120, 120, 1);
-  text-align: left;
+  text-align: center;
 }
 
 .infoblock > hr {
   border-top: 1px solid #eaeaea;
   border-bottom: 2px solid #fff;
   background: rgba(255, 255, 255, 0.5);
+}
+
+/* ==================================== ICONS FOR INFOBLOCK ====================================== */
+
+.fa-linkedin-square:hover {
+  color: #222;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.fa-google-plus-square:hover {
+  color: #222;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.fa-twitter-square:hover {
+  color: #222;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.fa-facebook-square:hover {
+  color: #222;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.fa-github:hover {
+  color: #222;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
 /* ==================================== PORTFOLIO BOX SHIT ====================================== */
@@ -6047,6 +6187,10 @@ textarea {
     background: rgba(255, 255, 255, 0.0);
     -webkit-transition: background 0.4s 0.5s;
     transition: background 0.4s 0.5s;
+}
+
+.row2 {
+  margin-top: 10px;
 }
 
 .captionbox {
@@ -6096,6 +6240,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     margin-top: -190px;
   }
 
+  #landing {
+    height: 100%;
+  }
+
 }
 
 @media (max-width: 1285px) {
@@ -6119,8 +6267,20 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     margin-left: 25px;
   }
 
+  .sillybox {
+    margin-left: 0px;
+  }
+
+  .secondcap {
+    margin-left: 25px;
+  }
+
   #landingpage {
-    height: 768px;
+    height: 100%;
+  }
+
+  .thirdd {
+    width: 100%;
   }
 
 }
@@ -6229,9 +6389,24 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     height: 320px;
   }
 
+  .subimageblock {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .sillybox {
+    width: 280px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .secondcap {
+    margin-left: 20px;
+  }
+
   .infoblock {
     width: 320px;
-    height: 320px;
+    height: auto;
   }
 
   .captionbox {
@@ -6244,6 +6419,7 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
 
   #landingpage {
     height: 100%;
+    min-height: 435px;
   }
 
 }
