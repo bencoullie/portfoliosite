@@ -6132,7 +6132,7 @@ a:hover {
   background: url('../img/bg.png') repeat;
   padding: 20px;
   border: 1px solid rgb(255, 255, 255);
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -6306,6 +6306,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   transition: opacity 0.5s;
 }
 
+.showonsmall {
+  display: none;
+}
+
 /* ==================================== CONTACT SECTION ====================================== */
 
   .contacthead {
@@ -6330,6 +6334,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
 
   #landing {
     height: 100%;
+  }
+
+  .showonmid {
+    display: none;
   }
 
 }
@@ -6380,6 +6388,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     height: 250px;
   }
 
+  .showonmid {
+    display: inherit;
+  }
+
 }
 
 @media (max-width: 1024px) {
@@ -6402,13 +6414,8 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
 
 @media (max-width: 860px) {
 
-  .gridmain {
-  width: 404px;
-  margin: 0 auto;
-  }
-
   .second {
-  margin-left: 0;
+    margin-left: 0;
   }
   
   #testbrackets3 {
@@ -6416,27 +6423,9 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .tobemoved {
-    min-width: 1px;
-    top: 225px;
-  }
-
-  .tobemoved > h1 {
-    line-height: 111px;
-  }
-
-  .tobemoved > h2 {
-    line-height: 55px;
-    margin-top: 28px;
-  }
-
-  .tobemoved > h3 {
-    line-height: 40px;
-  }
-
-  .tobemoved {
     position: inherit;
     min-width: 1px;
-    margin-top: -15px;
+    margin-top: -25px;
   }
 
   .svgarrow {
@@ -6446,17 +6435,14 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     min-width: 1px;
   }
 
-}
-
-@media (max-width: 860px) {
-
   .gridmain {
     width: 320px;
+    margin: 0 auto;
   }
 
   .subpagehead {
     line-height: 96px;
-    font-size: 80px;
+    font-size: 72px;
   }
 
   .h1span {
@@ -6465,8 +6451,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .tobemoved > h1 {
-    line-height: 96px;
-    font-size: 100px;
+    line-height: 80px;
+    font-size: 90px;
+    margin-top: 4px;
+    padding: 0 10px;
   }
 
   .tobemoved > h2 {
@@ -6540,6 +6528,18 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   #contactpage > div.contacthead > div > a > i {
     font-size: 80px;
     margin-top: 61px;
+  }
+
+  .hideonsmall {
+    display: none;
+  }
+
+  .showonsmall {
+    display: inherit;
+  }
+
+  .showonmid {
+    display: none;
   }
 
 }
