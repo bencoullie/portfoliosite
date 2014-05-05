@@ -5993,7 +5993,7 @@ textarea {
 }
 
 .infop {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 17px;
   text-align: left;
@@ -6059,13 +6059,10 @@ textarea {
 
 .subimageblockforp > p {
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
   color: rgb(120, 120, 120);
   text-align: center;
-  font-family: 'Roboto';
   font-weight: 300;
   font-size: 17px;
-  text-align: center;
   padding: 0 30px 16px 30px;
 } 
 
@@ -6078,16 +6075,51 @@ a:hover {
   color: rgba(228, 111, 97, 0.8);`
 }
 
-/*.imgcircle {
+.imgcircle {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
   border: 8px solid rgb(255, 255, 255);
-  width: 200px;
-  height: 200px;
+  width: 560px;
+  height: 250px;
   margin: 0 auto;
   background: url('../img/bencoullie.jpg') center center no-repeat;
-}*/
+  opacity:0.8;
+  text-align: center;
+  filter:alpha(opacity=80);
+}
+
+.imgcircle > p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(30, 30, 30, 0.35);  
+}
+
+#contactpage > div.contacthead > div > a > i {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 50px;
+  font-size: 90px;
+  text-shadow: 2px 2px 2px rgba(30, 30, 30, 0.35);
+  -webkit-transition: color 0.1s;
+  -moz-transition: color 0.1s;
+  -ms-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
+}
+
+#contactpage > div.contacthead > div > a > i:hover {
+  color: rgba(228, 111, 97, 0.8);
+  -webkit-transition: color 0.1s;
+  -moz-transition: color 0.1s;
+  -ms-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
+}
+
+
 
 /* ==================================== INFO BLOCK SHIT yoloswag ====================================== */
 
@@ -6274,7 +6306,11 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   transition: opacity 0.5s;
 }
 
+/* ==================================== CONTACT SECTION ====================================== */
 
+  .contacthead {
+    
+  }
 
 /* ==================================== MEDIA QUERIES ====================================== */
 
@@ -6337,6 +6373,11 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
 
   .fourthh {
     width: 100%;
+  }
+
+  .imgcircle {
+    width: 400px;
+    height: 250px;
   }
 
 }
@@ -6419,8 +6460,8 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .h1span {
-    font-size: 70px;
-    top: -5px;
+    font-size: 50px;
+    top: -10px;
   }
 
   .tobemoved > h1 {
@@ -6453,7 +6494,7 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   .subimageblockforp {
     width: 270px;
     margin-left: 0;
-    padding: 0 5px 16px 5px;
+    padding: 0 5px 0px 5px;
   }
 
   .sillybox {
@@ -6482,6 +6523,23 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   #landingpage {
     height: 100%;
     min-height: 435px;
+  }
+
+  .imgcircle {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+  }
+
+  .imgcircle > p {
+    font-size: 18px;
+  }
+
+  #contactpage > div.contacthead > div > a > i {
+    font-size: 80px;
+    margin-top: 61px;
   }
 
 }
