@@ -1,15 +1,15 @@
 $(function(){
-     $('.mainheadone').delay(1300).animate({
+     $('.mainheadone').delay(1500).animate({
           opacity: 1, top: 30
      }, 1100);
-     $('.mainheadtwo').delay(2800).animate({
+     $('.mainheadtwo').delay(3000).animate({
           opacity: 1
      }, 700);
-     $('.mainheadthree').delay(4300).animate({
+     $('.mainheadthree').delay(4500).animate({
           opacity: 1
      }, 500)
-     $('.svgarrow').delay(5200).animate({
+     $('.svgarrow').delay(5400).animate({
           opacity: 1
-     }, 300);
+     }, 600);
 });  
 

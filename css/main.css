@@ -6454,18 +6454,19 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .gridmain {
-    width: 320px;
+    width: 88%;
+    min-width: 280px;
     margin: 0 auto;
   }
 
   .subpagehead {
     line-height: 96px;
-    font-size: 72px;
+    font-size: 65px;
   }
 
   .h1span {
-    font-size: 50px;
-    top: -10px;
+    font-size: 30px;
+    top: -15px;
   }
 
   .tobemoved > h1 {
@@ -6478,7 +6479,7 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   .tobemoved > h2 {
     line-height: 55px;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 35px;
     padding: 0 5px;
   }
 
@@ -6488,17 +6489,17 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .svgbox {
-    width: 310px;
+    width: 295px;
     height: 310px;
   }
 
   .subimageblock {
-    width: 270px;
+    width: 255px;
     margin-left: 0;
   }
 
   .subimageblockforp {
-    width: 270px;
+    width: 255px;
     margin-left: 0;
     padding: 0 5px 0px 5px;
   }
@@ -6514,12 +6515,14 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .infoblock {
-    width: 310px;
+    width: 100%;
     height: auto;
   }
 
   .captionbox {
-    width: 270px;
+    width: 255px;
+    bottom: 35px;
+    line-height: 340px;
   }
 
   .captionbox > img {
@@ -6557,6 +6560,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
   }
 
   .showonmid {
+    display: none;
+  }
+
+  .dots {
     display: none;
   }
 
