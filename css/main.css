@@ -6410,6 +6410,10 @@ box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.55);
     display: inherit;
   }
 
+  #portfoliopage > div.gridmain > div:nth-child(4) > div.svgbox.box.second > a > div {
+    margin-left: 0;
+  }
+
 }
 
 @media (max-width: 1024px) {
