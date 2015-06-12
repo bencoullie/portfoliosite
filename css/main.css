@@ -6464,6 +6464,10 @@ a:visited {
     margin-top: -240px;
   }
 
+  a:focus, a:active, img:focus {
+    outline:0 !important;
+  }
+
   .infoblock {
     -webkit-box-shadow: 0px 4px 19px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 19px -8px rgba(0,0,0,0.75);
