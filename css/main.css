@@ -5911,6 +5911,9 @@ textarea {
 
 #contactpage {
   background: url('../img/bg3.png');
+  -webkit-box-shadow: 0px 2px 31px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 31px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 31px -8px rgba(0,0,0,0.75);
 }
 
 #testbrackets3 {
@@ -6354,7 +6357,7 @@ footer {
 }
 
 a:visited {
-  color: rgb(228,144,97); 
+  color: rgb(228,144,97);
 }
 
 /* ==================================== CONTACT SECTION ====================================== */
