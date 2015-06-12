@@ -6473,7 +6473,7 @@ a:visited {
   .captionbox {
     opacity: 1;
     background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0);
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     -ms-transition: opacity 0.5s;
