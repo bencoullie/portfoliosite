@@ -6454,6 +6454,14 @@ a:visited {
     top: 122px;
   }
 
+  .svgbox {
+    margin-top: 0;
+  }
+
+  .subimageblock {
+    margin-top: -33px;
+  }
+
   #testbrackets3 {
     margin: 0 auto;
     position: relative;
