@@ -5887,6 +5887,54 @@ textarea {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'graunbold';
+    src: url('../fonts/graun-webfont.eot');
+    src: url('../fonts/graun-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/graun-webfont.woff2') format('woff2'),
+         url('../fonts/graun-webfont.woff') format('woff'),
+         url('../fonts/graun-webfont.ttf') format('truetype'),
+         url('../fonts/graun-webfont.svg#graunbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'belta_boldbold';
+    src: url('../fonts/belta-bold-webfont.eot');
+    src: url('../fonts/belta-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/belta-bold-webfont.woff2') format('woff2'),
+         url('../fonts/belta-bold-webfont.woff') format('woff'),
+         url('../fonts/belta-bold-webfont.ttf') format('truetype'),
+         url('../fonts/belta-bold-webfont.svg#belta_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'belta_lightlight';
+    src: url('../fonts/belta-light-webfont.eot');
+    src: url('../fonts/belta-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/belta-light-webfont.woff2') format('woff2'),
+         url('../fonts/belta-light-webfont.woff') format('woff'),
+         url('../fonts/belta-light-webfont.ttf') format('truetype'),
+         url('../fonts/belta-light-webfont.svg#belta_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'belta_regularregular';
+    src: url('../fonts/belta-regular-webfont.eot');
+    src: url('../fonts/belta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/belta-regular-webfont.woff2') format('woff2'),
+         url('../fonts/belta-regular-webfont.woff') format('woff'),
+         url('../fonts/belta-regular-webfont.ttf') format('truetype'),
+         url('../fonts/belta-regular-webfont.svg#belta_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* ==================================== SITE CSS STYLING ====================================== */
 
 #landingpage, #aboutpage, #portfoliopage, #contactpage {
@@ -5928,8 +5976,8 @@ textarea {
 }
 
 .mainheadone {
-  font-family: 'bebas_neuebold';
-  font-size: 130px;
+  font-family: 'graunbold';
+  font-size: 103px;
   text-align: center;
   display: block;
   color: rgb(25, 25, 25);
@@ -5963,8 +6011,8 @@ textarea {
 }
 
 .subpagehead {
-  font-family: 'bebas_neuebold';
-  font-size: 110px;
+  font-family: 'belta_lightlight';
+  font-size: 130px;
   text-align: center;
   color: rgb(25, 25, 25);
   color: rgba(25, 25, 25, 0.4);
@@ -5974,7 +6022,7 @@ textarea {
 
 .h1span {
   font-size: 80px;
-  font-family: 'bebas_neuethin';
+  font-family: 'belta_lightlight';
   position: relative;
   top: -11px;
   color: rgb(25, 25, 25);
