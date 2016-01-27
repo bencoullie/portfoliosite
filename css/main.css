@@ -5891,7 +5891,6 @@ textarea {
     font-family: 'graunbold';
     src: url('../fonts/graun-webfont.eot');
     src: url('../fonts/graun-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/graun-webfont.woff2') format('woff2'),
          url('../fonts/graun-webfont.woff') format('woff'),
          url('../fonts/graun-webfont.ttf') format('truetype'),
          url('../fonts/graun-webfont.svg#graunbold') format('svg');
@@ -5903,7 +5902,6 @@ textarea {
     font-family: 'belta_lightlight';
     src: url('../fonts/belta-light-webfont.eot');
     src: url('../fonts/belta-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/belta-light-webfont.woff2') format('woff2'),
          url('../fonts/belta-light-webfont.woff') format('woff'),
          url('../fonts/belta-light-webfont.ttf') format('truetype'),
          url('../fonts/belta-light-webfont.svg#belta_lightlight') format('svg');
@@ -6054,10 +6052,12 @@ textarea {
 
 .secondarrow {
   text-align: center;
+  opacity: 0;
 }
 
 .columndiv {
   display: inline-block;
+  opacity: 0;
 }
 
 .sillybox {
@@ -6141,6 +6141,11 @@ a:hover {
   font-weight: 300;
   font-size: 20px;
   text-shadow: 2px 2px 2px rgba(30, 30, 30, 0.35);
+  opacity: 0;
+}
+
+.imgcircle > a {
+  opacity: 0;
 }
 
 #contactpage > div.contacthead > div > a > i {
@@ -6203,6 +6208,7 @@ footer {
   -moz-border-radius: 2px;
   border-radius: 2px;
   transition: box-shadow 0.3s;
+  opacity: 0;
 }
 
 .firstt {

@@ -18,6 +18,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
         <script src="jquery.lazylinepainter-1.4.1.min.js"></script>
+        <link rel="stylesheet" href="vendor/animate.min.css">
+        <script src="vendor/noframework.waypoints.min.js"></script>
         <script src="js/main.js"></script>
                 <script type="text/javascript">
             (function( $ ){
@@ -86,7 +88,7 @@ var pathObj = {
         <!-- Add your site or application content here -->
         <div id="landingpage">
             <div class="tobemoved">
-                <h1 class="mainheadone">Hello World</h1>
+                <h1 class="mainheadone animated">Hello World</h1>
                 <h2 class="mainheadtwo">My name is Ben Coullie</h2>
                 <h3 class="mainheadthree">And I'm a front end web designer</h3>
             </div>
@@ -106,7 +108,7 @@ var pathObj = {
             <br class="showonmid">
             <br class="showonmid">
             <div class="gridmain">
-                <div class="infoblock firstt">
+                <div class="infoblock firstt" id="i1">
                     <hr>
                     <i class="fa fa-user"></i><h3>Essentials</h3>
                     <hr>
@@ -128,7 +130,7 @@ var pathObj = {
                         </p>
                     </div>
                 </div>
-                <div class="infoblock second secondd">
+                <div class="infoblock second secondd" id="i2">
                     <hr>
                     <i class="fa fa-pencil"></i><h3>Education</h3>
                     <hr>
@@ -159,7 +161,7 @@ var pathObj = {
                         </p>
                     </div>
                 </div>
-                <div class="infoblock thirdd">
+                <div class="infoblock thirdd" id="i3">
                     <hr>
                     <i class="fa fa-gamepad"></i><h3>Personal</h3>
                     <hr>
@@ -181,7 +183,7 @@ var pathObj = {
                         </p>
                     </div>
                 </div>
-                <div class="infoblock fourthh">
+                <div class="infoblock fourthh" id="i4">
                     <hr>
                     <i class="fa fa-users"></i><h3>Digital Shadow</h3>
                     <hr>
@@ -200,7 +202,7 @@ var pathObj = {
             <br>
             <br>
             <br>
-            <div class="secondarrow">
+            <div class="secondarrow" id="a2">
                 <a href="#portfoliopage"><img src="img/down.svg"></a>
             </div>
             <br>
@@ -214,7 +216,7 @@ var pathObj = {
             </div>
             <br class="showonmid">
             <div class="gridmain">
-                <div class="columndiv">
+                <div class="columndiv" id="c1">
                     <div class="svgbox box noleftpls">
                         <a href="http://www.trulyandmadly.com/">
                             <img src="img/tandmlogo.png" height="auto" width="auto" alt="Truly and Madly">
@@ -251,7 +253,7 @@ var pathObj = {
                 </div>
                 <br class="showonsmall">
                 <br class="showonsmall">
-                <div class="columndiv">
+                <div class="columndiv" id="c2">
                     <div class="svgbox box second">
                         <a href="http://www.stevenslawson.co.nz/">
                             <img src="img/sandl-logo.png" height="auto" width="auto" alt="Stevens Lawson">
@@ -271,7 +273,7 @@ var pathObj = {
                 </div>
                 <br class="showonsmall">
                 <br class="showonsmall">
-                <div class="columndiv">
+                <div class="columndiv" id="c3">
                     <div class="svgbox box">
                         <a href="https://www.unyouth.org.nz/">
                             <img src="img/unyouth-logo.png" height="auto" width="auto" alt="UN Youth">
@@ -291,7 +293,7 @@ var pathObj = {
                 </div>
                 <br class="showonsmall">
                 <br class="showonsmall">
-                <div class="columndiv">
+                <div class="columndiv" id="c4">
                     <div class="svgbox box second row2 noleftpls">
                         <a href="http://bencoullie.github.io/durbanfromfar/">
                             <img src="img/dff-logo.gif" height="auto" width="auto" alt="Durban From Far">
@@ -311,7 +313,7 @@ var pathObj = {
                 </div>
                 <br class="showonsmall">
                 <br class="showonsmall">
-                <div class="columndiv">
+                <div class="columndiv" id="c5">
                     <div class="svgbox box row2">
                         <a href="http://bencoullie.github.io/farcry">
                             <img src="img/farcry-logo.png" height="auto" width="auto" alt="Far Cry 3">
@@ -331,7 +333,7 @@ var pathObj = {
                 </div>
                 <br class="showonsmall">
                 <br class="showonsmall">
-                <div class="columndiv">
+                <div class="columndiv" id="c6">
                     <div class="svgbox box second row2">
                         <a href="http://www.hatch.nz/portfolio/koala-baby-organics">
                             <img src="img/koala-logo.jpg" height="auto" width="auto" alt="Koala Baby">
@@ -352,7 +354,7 @@ var pathObj = {
                 <br>
                 <br>
                 <br>
-                <div class="secondarrow">
+                <div class="secondarrow" id="a3">
                     <a href="#contactpage"><img src="img/down.svg"></a>
                 </div>
                 <br>
@@ -370,10 +372,10 @@ var pathObj = {
                 <br class="showonsmall">
                 <div class="contacthead">
                     <div class="imgcircle">
-                        <a href="mailto:bencoullie@gmail.com" title="Email bencoullie@gmail.com">
+                        <a href="mailto:bencoullie@gmail.com" title="Email bencoullie@gmail.com" id="e1">
                             <i class="fa fa-envelope-o"></i>
                         </a>
-                        <p>Let's keep this simple.</p>
+                        <p id="e2">Let's keep this simple.</p>
                     </div>
                 </div>
                 <br>
@@ -387,22 +389,12 @@ var pathObj = {
             </div>
         </div>
 
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             $(function(){
                 $( "h1" ).slideDown( "slow" );
             });
         </script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-50232404-2', 'auto');
-          ga('send', 'pageview');
-        </script>
         <script>
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
